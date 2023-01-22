@@ -1,100 +1,53 @@
-<a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
+<h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> नमस्ते (Namaste)🙏🏻, I'm Amit Kumar! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
+<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
+<p><em> Computer Science undergraduate at <a href="http://www.mnnit.ac.in/">MNNIT ALLAHABAD
+</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+</em></p>
 
-<!-- title -->
-<img align="right" src="https://komarev.com/ghpvc/?username=hackeramitkumar&color=00BB00&label=Profile+Views&style=flat" alt="hackeramitkumar" /> 
-<h1 align="center">Hi  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> I'm Amit kumar!</h1>
-<h3 align="center">A professional android developer from India</h3>
+[![Twitter Follow](https://img.shields.io/twitter/follow/AmitRaj60510415?label=Follow)](https://twitter.com/intent/follow?screen_name=AmitRaj60510415)
+[![Linkedin: amit](https://img.shields.io/badge/-amit-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/amit3210/)](https://www.linkedin.com/in/amit3210)
+![GitHub followers](https://img.shields.io/github/followers/hackeramitkumar?label=Follow&style=social)
+![](https://visitor-badge.glitch.me/badge?page_id=hackeramitkumar.hackeramitkumar)
+![Waka Readme](https://github.com/anmol098/anmol098/workflows/Waka%20Readme/badge.svg)
 
-<!-- typing svg -->
+### *Work Experience* : 
+- [Cluster Api v1.4 Release Team](https://github.com/kubernetes-sigs/cluster-api/blob/main/docs/release/release-1.4.md) - Worked as a Release Lead Shadow
+- GSoC 2023 Mentor (@AOSSIE) - Maintaining [agora-android](https://gitlab.com/aossie/agora-android) project
+- GSoC 2022 Student (@AOSSIE) - Contributed to agora-android ( Check my work [here](https://gitlab.com/aossie/agora-android/-/blob/develop/docs/GSOC/2022/Amit.md))
+- MNNIT CC Club cordinator 
+- Avishkar 2022 tech team - Created an android application for the institute 
+- Coding Blocks campus super-hero
 
+### 📫 Like to meet me?
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?center=true&vCenter=true&width=1000&height=69&font=Comfortaa&color=20C20E&lines=Namaste+🙏;Check+out+my+Pinned+Repositories;Connect+with+me+for+Collaboration;Ask+me+about+anything,+I+am+happy+to+help;I+believe+in+god+supremacy+:+\);)
+Pick a slot if you'd like to meet me and chat about anything you are passionate about - but make sure to describe the agenda
 
-
-- 🏫 I’m currently studying **Computer Science & Engineering** at NIT Allahabad.
-- 🧑‍🎓 i'm also a campus ambassador @Coding Blocks.
-
-- 👨‍💻 All of my projects are available [here](https://github.com/hackeramitkumar?tab=repositories)
-
-- 👯 I’m looking to collaborate on (Open Source)
-<!--
-- 🤝 I’m looking for help with [3](a3)
- -->
-<!--
-- 📝 I regularly write articles on [8](8)
-
-- 💬 Ask me about **5**
--->
-- ✉️ Reach out to me at **amit9116260192@gmail.com**
-- 😁 Fun fact : **I love android developement and competitive programming**
-<!--
-- 📄 Know about my experiences [9](9)
--->
-
-
-***
-
-<!-- Contact me -->
-
-<h3 align="center">My Social Profiles :</h3>
-<div align="center" width="560px>
-               
-<a href="https://www.linkedin.com/in/amit-kumar-88b67b20a/" target="blank"><img align="center" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="https://www.linkedin.com/in/amit-kumar-88b67b20a/" height="30" width="30" /></a> 
-<a href="https://twitter.com/amitrix1234" target="blank"><img align="center" src="https://www.vectorlogo.zone/logos/twitter/twitter-tile.svg" alt="amitrix1234" height="30" width="30" /></a> 
-<a href="https://www.facebook.com/profile.php?id=100021715518468" target="blank"><img align="center" src="https://www.vectorlogo.zone/logos/facebook/facebook-tile.svg" alt="amitrajpoot" height="30" width="30" /></a>
-<a href="https://www.instagram.com/i_am_amit_111/?hl=en" target="blank"><img align="center" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" alt="i_am_amit_111" height="30" width="30" /></a>
-<a href="https://gitlab.com/hackeramitkumar" target="blank"><img align="center" src="https://www.vectorlogo.zone/logos/gitlab/gitlab-tile.svg" alt="hackeramitkumar" height="30" width="30" /></a>
-<a href="https://leetcode.com/hackeramitkumar/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/leetcode.svg" alt="amit_kumar" height="30" width="30" /></a>
-
-
-</div>
-
-***
-
-<!-- Languages and tools -->
-
-<h3 align="center">Languages and Tools:</h3>
-
-<div align="center"> 
-<a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a>
-<a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
-<a href="" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
-<a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
-<a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
-<a href="https://git-scm.com/" target="_blank" > <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-
-                                                                                                                                                      
-<!-- tools/language addition format-->
-
-</div>
-
-
-## 📊 My Github Stats
+<a href="https://calendly.com/hackeramitkumar/30min" target="_blank"><img width="498" alt="meet_link" src="https://user-images.githubusercontent.com/15426564/144297439-f530f383-e73e-41e0-9914-a9b7d3f432e5.png"></a>
 
 
 
-<div align="center">
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=hackeramitkumar&show_icons=true&theme=tokyonight&hide_border=false&count_private=true" alt="My Profile Stats" />
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=hackeramitkumar&hide_border=false&theme=tokyonight" alt="My Commit Stats" />
- 
-</div>
+```javascript
+const amit = {
+    pronouns: "He" | "Him",
+    code: ["golang", "Java", "Kotlin", "C/C++", "JavaScript"],
+    askMeAbout: ["Open Source", "android dev", "tech", "web dev", "photography", "gaming"],
+    technologies: {
+        backEnd: {
+            js: ["Node", "Express"],
+        },
+        mobileApp: {
+            native: ["Android java/kotlin Development" , "Jetpack Compose", "Kotlin Flow" , "Dependency Injection", "Retrofit"]
+        },
+        devOps: ["AWS", "GCP", "Docker🐳", "ArgoCD", "Kubernetes", "GitOps", "Jenkins" , "Github Actions" , "Cluster - API"],
+        databases: ["mongo", "MySql", "sqlite", "Room"],
+        misc: ["Firebase", "Socket.IO"]
+    },
+    architecture: ["MVVM", "Clean Architecture"]
+    currentFocus: "Devops and Container Orchestration",
+    funFact: "There are two ways to write error-free programs; only the third one works"
+};
+```
 
-
-  <br/>
-
-  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
-
-
-<br/>
-<br/>
-
-<a href="https://github.com/hackeramitkumar/github-readme-activity-graph"><img alt="Amit kumar's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=hackeramitkumar&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
-
-<br/>
-<br/>
-
-
-<h1 align="right"><a href="https://github.com/hackeramitkumar?tab=repositories" target="_blank"> My Projects ↗️ </a></h1>
-<h3 align="right"> My Pinned Repositories ⬇️ </h3> 
-
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
