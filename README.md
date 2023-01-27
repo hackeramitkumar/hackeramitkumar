@@ -11,7 +11,7 @@
 ![Waka Readme](https://github.com/anmol098/anmol098/workflows/Waka%20Readme/badge.svg)
 
 ### *Work Experience* : 
-- *Cluster Api v1.4 Release Team* - Worked as a [Release Lead Shadow]((https://github.com/kubernetes-sigs/cluster-api/blob/main/docs/release/release-1.4.md))
+- *Kubernetes Cluster Api v1.4 Release Team* - Worked as a [Release Lead Shadow](https://github.com/kubernetes-sigs/cluster-api/blob/main/docs/release/release-1.4.md)
 - *GSoC 2023 Mentor (@AOSSIE)* - Maintaining [agora-android](https://gitlab.com/aossie/agora-android) project
 - *GSoC 2022 Student (@AOSSIE)* - Contributed to agora-android ( Check my work [here](https://gitlab.com/aossie/agora-android/-/blob/develop/docs/GSOC/2022/Amit.md))
 - *MNNIT CC Club cordinator* 
