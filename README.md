@@ -1,53 +1,116 @@
-<h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> नमस्ते (Namaste)🙏🏻, I'm Amit Kumar! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
-<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
-<p><em> Computer Science undergraduate at <a href="http://www.mnnit.ac.in/">MNNIT ALLAHABAD
-</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
-</em></p>
+# 👋 Hi, I'm Amit Kumar
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/AmitRaj60510415?label=Follow)](https://twitter.com/intent/follow?screen_name=AmitRaj60510415)
-[![Linkedin: amit](https://img.shields.io/badge/-amit-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/amit3210/)](https://www.linkedin.com/in/amit3210)
-![GitHub followers](https://img.shields.io/github/followers/hackeramitkumar?label=Follow&style=social)
-![](https://visitor-badge.glitch.me/badge?page_id=hackeramitkumar.hackeramitkumar)
-![Waka Readme](https://github.com/anmol098/anmol098/workflows/Waka%20Readme/badge.svg)
+🚀 **Software Engineer @ Cisco | Systems, Security & Cloud Infrastructure**  
+💻 Rust • C/C++ • Go • Kubernetes • Windows/macOS Internals  
+🌐 Open Source Contributor | CNCF | Linux Foundation (AGNTCY)
 
-### *Work Experience* : 
-- *Kubernetes Cluster Api v1.4 Release Team* - Worked as a [Release Lead Shadow](https://github.com/kubernetes-sigs/cluster-api/blob/main/docs/release/release-1.4.md)
-- *GSoC 2023 Mentor (@AOSSIE)* - Maintaining [agora-android](https://gitlab.com/aossie/agora-android) project
-- *GSoC 2022 Student (@AOSSIE)* - Contributed to agora-android ( Check my work [here](https://gitlab.com/aossie/agora-android/-/blob/develop/docs/GSOC/2022/Amit.md))
-- *MNNIT CC Club cordinator* 
-- *Avishkar 2022 tech team* - Created an android application for the institute 
-- *Coding Blocks campus super-hero*
+---
 
-### 📫 Like to meet me?
+## 🧠 About Me
 
-Pick a slot if you'd like to meet me and chat about anything you are passionate about - but make sure to describe the agenda
+I'm a **software engineer focused on systems programming, distributed systems, and cloud-native security infrastructure**.  
+I work on **performance-critical, production-grade systems** spanning **kernel-space to platform services**, primarily on **Windows and macOS endpoints**.
 
-<a href="https://calendly.com/hackeramitkumar/30min" target="_blank"><img width="498" alt="meet_link" src="https://user-images.githubusercontent.com/15426564/144297439-f530f383-e73e-41e0-9914-a9b7d3f432e5.png"></a>
+I enjoy building **high-throughput, resilient systems**, contributing to **open source**, and working at the intersection of **security, infrastructure, and agentic systems**.
 
+---
 
+## 🏗️ What I'm Working On
 
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
+### 🔐 Cisco – Endpoint DLP (Software Engineer II)
+- Core engineer for **Cisco Endpoint DLP**, from inception to GA
+- Designed and shipped **endpoint agent + platform workflows**
+- Built a **high-performance content classification engine in Rust**
+  - 1500+ classifiers
+  - Bloom-filter–based classification
+  - Resilient content extraction pipelines
+- Developed **Windows kernel filesystem minifilter drivers**
+  - Secure IPC
+  - User-mode policy enforcement
+- Leading **macOS Endpoint DLP architecture**
+  - Apple System Extensions
+  - Endpoint Security Framework (ESF)
+- Implemented **IPv6 support** across enterprise security infrastructure
+- Automated **vulnerability management & compliance reporting**
 
-```javascript
-const amit = {
-    pronouns: "He" | "Him",
-    code: ["golang", "Java", "Kotlin", "C/C++", "JavaScript"],
-    askMeAbout: ["Open Source", "android dev", "tech", "web dev", "photography", "gaming"],
-    technologies: {
-        backEnd: {
-            js: ["Node", "Express"],
-        },
-        mobileApp: {
-            native: ["Android java/kotlin Development" , "Jetpack Compose", "Kotlin Flow" , "Dependency Injection", "Retrofit"]
-        },
-        devOps: ["AWS", "GCP", "Docker🐳", "ArgoCD", "Kubernetes", "GitOps", "Jenkins" , "Github Actions" , "Cluster - API"],
-        databases: ["mongo", "MySql", "sqlite", "Room"],
-        misc: ["Firebase", "Socket.IO"]
-    },
-    architecture: ["MVVM", "Clean Architecture"]
-    currentFocus: "Devops and Container Orchestration",
-    funFact: "There are two ways to write error-free programs; only the third one works"
-};
-```
+**Tech:** Rust, C/C++, Windows/macOS Internals, IPC, Networking (IPv4/IPv6), Kubernetes, CI/CD
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
+---
+
+### ☁️ Cisco – Cloud Security (Intern)
+- Helped decompose a **large-scale monolith** into microservices
+- Containerized **14 services** across multiple data centers
+- Built **Helm charts** and Kubernetes deployment patterns
+- Implemented **CI/CD pipelines** using Jenkins
+
+**Tech:** Kubernetes, Docker, Helm, Jenkins, AWS, Cilium, Datadog, Go
+
+---
+
+## 🌍 Open Source & Community
+
+- **Contributor @ AGNTCY (Linux Foundation)**  
+  Building the **Internet of Agents** (IETF initiative)
+- **Kubernetes Cluster API – Release Team**
+  - Release notes
+  - CI signal & bug triage
+- **CNCF Kyverno (Linux Foundation Mentorship)**
+  - Improved Sigstore Cosign integration
+  - Implemented image verification caching (Ristretto)
+  - Added OCI v1.1 referrers API support
+- **Google Summer of Code @ AOSSIE**
+  - Modernized Agora Vote Android app
+  - Kotlin Flow, MVVM, Clean Architecture
+
+---
+
+## 🛠️ Technical Skills
+
+**Languages**  
+`Rust` `C/C++` `Go` `Java` `Kotlin` `Python`
+
+**Systems & OS**  
+- Windows Internals & Filesystem Minifilters  
+- macOS System Extensions & Endpoint Security Framework  
+- IPC, Win32 APIs, Tamper Proofing (DACL/SACL)
+
+**Cloud & Infrastructure**  
+- Kubernetes, Docker, Helm, Microservices  
+- CI/CD (Jenkins)  
+- Cilium, AWS, Observability (Datadog)
+
+**Networking**  
+IPv4/IPv6 • BGP • Anycast • TCP/UDP
+
+---
+
+## 🧪 Projects
+
+### 🔗 Blockchain-based Seller Verification System
+- Distributed verification using **IPFS + Blockchain**
+- Built P2P network using **libp2p**
+- Smart contracts deployed on **Goerli**
+- Load-based request distribution with persistent artifacts
+
+**Tech:** IPFS, HeliaJS, libp2p, Solidity, Web3.js, Node.js
+
+---
+
+## 📜 Certifications
+
+- 🏅 **CKAD – Certified Kubernetes Application Developer**
+- 🐍 Python for Everybody – University of Michigan
+- 🌐 Cilium Network Policies – Isovalent
+- 🐧 Tuxwars Winner – Advanced Linux Proficiency
+
+---
+
+## 📫 Connect With Me
+
+- 💼 LinkedIn: https://linkedin.com/in/hackeramitkumar  
+- 🐙 GitHub: https://github.com/hackeramitkumar  
+- 📧 Email: amit9116260192@gmail.com
+
+---
+
+⭐ **I love building systems that scale, break, and then scale again — properly.**
