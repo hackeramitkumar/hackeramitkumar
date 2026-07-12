@@ -31,6 +31,9 @@
   <a href="https://github.com/hackeramitkumar"><img src="https://komarev.com/ghpvc/?username=hackeramitkumar&label=Profile%20views&color=00E5FF&style=for-the-badge" alt="Profile views" /></a>
 </p>
 
+<!-- Animated AI / Internet-of-Agents network (self-hosted SVG) -->
+<img src="./assets/neural-agents.svg" width="100%" alt="Internet of Agents network" />
+
 </div>
 
 <!-- ===================== ABOUT ===================== -->
@@ -150,14 +153,15 @@ I'm a **systems-focused software engineer** who loves building **high-performanc
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-<!-- ===================== SNAKE ANIMATION (optional) ===================== -->
+<!-- ===================== SNAKE ANIMATION (optional) =====================
   OPTIONAL: contribution-snake animation.
-  1. Create .github/workflows/snake.yml with Platane/snk action.
-  2. Uncomment the image below after the workflow runs once.
+  1. .github/workflows/snake.yml (Platane/snk) is already included.
+  2. Run the workflow once from the Actions tab, then uncomment the image below.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/hackeramitkumar/hackeramitkumar/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </div>
+-->
 
 <div align="center">
 

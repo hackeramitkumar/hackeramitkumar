@@ -4,19 +4,8 @@
       <stop offset="0%" stop-color="#0b0f19"/>
       <stop offset="100%" stop-color="#131826"/>
     </linearGradient>
-    <style>
-      .l  { font: 16px 'Fira Code', Consolas, monospace; opacity: 0; }
-      .p  { fill: #00e5ff; } .a { fill: #7c4dff; } .o { fill: #c9d1d9; } .g { fill: #3fb950; } .c { fill: #58a6ff; }
-      .fade { animation: fade .01s linear forwards; }
-      @keyframes fade { to { opacity: 1 } }
-      .t0 { animation-delay: .3s }  .t1 { animation-delay: 1.2s } .t2 { animation-delay: 1.9s }
-      .t3 { animation-delay: 2.9s } .t4 { animation-delay: 3.8s } .t5 { animation-delay: 4.6s }
-      .caret { animation: blink 1s step-end infinite; }
-      @keyframes blink { 50% { opacity: 0 } }
-    </style>
   </defs>
 
-  <!-- window -->
   <rect x="10" y="10" width="880" height="280" rx="12" fill="url(#term-bg)" stroke="#232a3b"/>
   <rect x="10" y="10" width="880" height="34" rx="12" fill="#1b2130"/>
   <circle cx="34" cy="27" r="6" fill="#ff5f56"/>
@@ -24,16 +13,17 @@
   <circle cx="78" cy="27" r="6" fill="#27c93f"/>
   <text x="450" y="32" text-anchor="middle" font-family="Fira Code, monospace" font-size="13" fill="#6e7681">amit@github: ~/profile</text>
 
-  <!-- lines -->
-  <text x="34" y="80"  class="l fade t0"><tspan class="p">amit@github</tspan><tspan class="o">:</tspan><tspan class="a">~$</tspan><tspan class="o"> whoami</tspan></text>
-  <text x="34" y="106" class="l fade t1"><tspan class="g">œ</tspan><tspan class="o"> Systems Engineer · Cloud-Native · Security</tspan></text>
-  <text x="34" y="132" class="l fade t2"><tspan class="g">œ</tspan><tspan class="o"> Rust · Go · C/C++ · Kubernetes</tspan></text>
+  <g font-family="Fira Code, monospace" font-size="16">
+    <text x="34" y="80" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.2s" fill="freeze"/><tspan fill="#00e5ff">amit@github</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#7c4dff">~$</tspan><tspan fill="#c9d1d9"> whoami</tspan></text>
+    <text x="34" y="106" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.2s" fill="freeze"/><tspan fill="#3fb950">&#10140;</tspan><tspan fill="#c9d1d9"> Systems Engineer &#183; Cloud-Native &#183; Security</tspan></text>
+    <text x="34" y="132" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.2s" fill="freeze"/><tspan fill="#3fb950">&#10140;</tspan><tspan fill="#c9d1d9"> Rust &#183; Go &#183; C/C++ &#183; Kubernetes</tspan></text>
 
-  <text x="34" y="172" class="l fade t3"><tspan class="p">amit@github</tspan><tspan class="o">:</tspan><tspan class="a">~$</tspan><tspan class="o"> cat focus.txt</tspan></text>
-  <text x="34" y="198" class="l fade t4"><tspan class="c">œ</tspan><tspan class="o"> Internet of Agents · A2A protocol · Kyverno (CNCF)</tspan></text>
+    <text x="34" y="172" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.2s" fill="freeze"/><tspan fill="#00e5ff">amit@github</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#7c4dff">~$</tspan><tspan fill="#c9d1d9"> cat focus.txt</tspan></text>
+    <text x="34" y="198" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.4s" dur="0.2s" fill="freeze"/><tspan fill="#58a6ff">&#10140;</tspan><tspan fill="#c9d1d9"> Internet of Agents &#183; A2A protocol &#183; Kyverno (CNCF)</tspan></text>
 
-  <g class="l fade t5">
-    <text x="34" y="238"><tspan class="p">amit@github</tspan><tspan class="o">:</tspan><tspan class="a">~$</tspan></text>
-    <rect x="150" y="225" width="9" height="16" fill="#00e5ff" class="caret"/>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.2s" dur="0.2s" fill="freeze"/>
+      <text x="34" y="238"><tspan fill="#00e5ff">amit@github</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#7c4dff">~$</tspan></text>
+      <rect x="150" y="225" width="9" height="16" fill="#00e5ff"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+    </g>
   </g>
 </svg>

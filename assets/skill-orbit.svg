@@ -8,17 +8,12 @@
       <feGaussianBlur stdDeviation="3.5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <style>
-      .lbl  { font: 600 12px 'Fira Code', monospace; fill: #c9d1d9; }
-      .ring { fill: none; stroke: #2b3245; stroke-width: 1.2; }
-      .node { fill: #0b0f19; }
-    </style>
   </defs>
 
   <!-- orbit rings -->
-  <circle class="ring" cx="220" cy="220" r="80"/>
-  <circle class="ring" cx="220" cy="220" r="140"/>
-  <circle class="ring" cx="220" cy="220" r="200"/>
+  <circle cx="220" cy="220" r="80" fill="none" stroke="#2b3245" stroke-width="1.2"/>
+  <circle cx="220" cy="220" r="140" fill="none" stroke="#2b3245" stroke-width="1.2"/>
+  <circle cx="220" cy="220" r="200" fill="none" stroke="#2b3245" stroke-width="1.2"/>
 
   <!-- pulsing core -->
   <circle cx="220" cy="220" r="34" fill="url(#core)" filter="url(#glow2)">
@@ -29,24 +24,24 @@
   <!-- INNER orbit (clockwise, 14s) -->
   <g>
     <animateTransform attributeName="transform" type="rotate" from="0 220 220" to="360 220 220" dur="14s" repeatCount="indefinite"/>
-    <g transform="translate(300 220)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="14s" repeatCount="indefinite"/><circle class="node" r="18" stroke="#00e5ff" stroke-width="1.5"/><text class="lbl" text-anchor="middle" y="4">Rust</text></g></g>
-    <g transform="translate(140 220)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="14s" repeatCount="indefinite"/><circle class="node" r="18" stroke="#00e5ff" stroke-width="1.5"/><text class="lbl" text-anchor="middle" y="4">Go</text></g></g>
+    <g transform="translate(300 220)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="14s" repeatCount="indefinite"/><circle fill="#0b0f19" r="18" stroke="#00e5ff" stroke-width="1.5"/><text font-family="Fira Code, monospace" font-weight="600" font-size="12" fill="#c9d1d9" text-anchor="middle" y="4">Rust</text></g></g>
+    <g transform="translate(140 220)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="14s" repeatCount="indefinite"/><circle fill="#0b0f19" r="18" stroke="#00e5ff" stroke-width="1.5"/><text font-family="Fira Code, monospace" font-weight="600" font-size="12" fill="#c9d1d9" text-anchor="middle" y="4">Go</text></g></g>
   </g>
 
   <!-- MIDDLE orbit (counter-clockwise, 20s) -->
   <g>
     <animateTransform attributeName="transform" type="rotate" from="360 220 220" to="0 220 220" dur="20s" repeatCount="indefinite"/>
-    <g transform="translate(360 220)"><g><animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="20s" repeatCount="indefinite"/><circle class="node" r="20" stroke="#7c4dff" stroke-width="1.5"/><text class="lbl" text-anchor="middle" y="4">K8s</text></g></g>
-    <g transform="translate(80 220)"><g><animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="20s" repeatCount="indefinite"/><circle class="node" r="20" stroke="#7c4dff" stroke-width="1.5"/><text class="lbl" text-anchor="middle" y="4">C++</text></g></g>
-    <g transform="translate(220 80)"><g><animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="20s" repeatCount="indefinite"/><circle class="node" r="20" stroke="#7c4dff" stroke-width="1.5"/><text class="lbl" text-anchor="middle" y="4">OCI</text></g></g>
+    <g transform="translate(360 220)"><g><animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="20s" repeatCount="indefinite"/><circle fill="#0b0f19" r="20" stroke="#7c4dff" stroke-width="1.5"/><text font-family="Fira Code, monospace" font-weight="600" font-size="12" fill="#c9d1d9" text-anchor="middle" y="4">K8s</text></g></g>
+    <g transform="translate(80 220)"><g><animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="20s" repeatCount="indefinite"/><circle fill="#0b0f19" r="20" stroke="#7c4dff" stroke-width="1.5"/><text font-family="Fira Code, monospace" font-weight="600" font-size="12" fill="#c9d1d9" text-anchor="middle" y="4">C++</text></g></g>
+    <g transform="translate(220 80)"><g><animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="20s" repeatCount="indefinite"/><circle fill="#0b0f19" r="20" stroke="#7c4dff" stroke-width="1.5"/><text font-family="Fira Code, monospace" font-weight="600" font-size="12" fill="#c9d1d9" text-anchor="middle" y="4">OCI</text></g></g>
   </g>
 
   <!-- OUTER orbit (clockwise, 28s) -->
   <g>
     <animateTransform attributeName="transform" type="rotate" from="0 220 220" to="360 220 220" dur="28s" repeatCount="indefinite"/>
-    <g transform="translate(420 220)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="28s" repeatCount="indefinite"/><circle class="node" r="22" stroke="#3fb950" stroke-width="1.5"/><text class="lbl" text-anchor="middle" y="4">Docker</text></g></g>
-    <g transform="translate(20 220)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="28s" repeatCount="indefinite"/><circle class="node" r="22" stroke="#3fb950" stroke-width="1.5"/><text class="lbl" text-anchor="middle" y="4">Cilium</text></g></g>
-    <g transform="translate(220 20)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="28s" repeatCount="indefinite"/><circle class="node" r="22" stroke="#3fb950" stroke-width="1.5"/><text class="lbl" text-anchor="middle" y="4">Helm</text></g></g>
-    <g transform="translate(220 420)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="28s" repeatCount="indefinite"/><circle class="node" r="22" stroke="#3fb950" stroke-width="1.5"/><text class="lbl" text-anchor="middle" y="4">Sigstore</text></g></g>
+    <g transform="translate(420 220)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="28s" repeatCount="indefinite"/><circle fill="#0b0f19" r="22" stroke="#3fb950" stroke-width="1.5"/><text font-family="Fira Code, monospace" font-weight="600" font-size="12" fill="#c9d1d9" text-anchor="middle" y="4">Docker</text></g></g>
+    <g transform="translate(20 220)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="28s" repeatCount="indefinite"/><circle fill="#0b0f19" r="22" stroke="#3fb950" stroke-width="1.5"/><text font-family="Fira Code, monospace" font-weight="600" font-size="12" fill="#c9d1d9" text-anchor="middle" y="4">Cilium</text></g></g>
+    <g transform="translate(220 20)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="28s" repeatCount="indefinite"/><circle fill="#0b0f19" r="22" stroke="#3fb950" stroke-width="1.5"/><text font-family="Fira Code, monospace" font-weight="600" font-size="12" fill="#c9d1d9" text-anchor="middle" y="4">Helm</text></g></g>
+    <g transform="translate(220 420)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="28s" repeatCount="indefinite"/><circle fill="#0b0f19" r="22" stroke="#3fb950" stroke-width="1.5"/><text font-family="Fira Code, monospace" font-weight="600" font-size="12" fill="#c9d1d9" text-anchor="middle" y="4">Sigstore</text></g></g>
   </g>
 </svg>

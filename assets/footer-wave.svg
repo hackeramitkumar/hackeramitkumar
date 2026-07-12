@@ -7,7 +7,6 @@
     </linearGradient>
   </defs>
 
-  <!-- back wave -->
   <path fill="url(#wg)" fill-opacity="0.25" d="M0,80 C150,20 350,140 500,80 C650,20 850,140 1000,80 L1000,160 L0,160 Z">
     <animate attributeName="d" dur="8s" repeatCount="indefinite"
       values="M0,80 C150,20 350,140 500,80 C650,20 850,140 1000,80 L1000,160 L0,160 Z;
@@ -15,7 +14,6 @@
               M0,80 C150,20 350,140 500,80 C650,20 850,140 1000,80 L1000,160 L0,160 Z"/>
   </path>
 
-  <!-- front wave -->
   <path fill="url(#wg)" fill-opacity="0.55" d="M0,100 C160,60 340,150 500,100 C660,50 840,150 1000,100 L1000,160 L0,160 Z">
     <animate attributeName="d" dur="6s" repeatCount="indefinite"
       values="M0,100 C160,60 340,150 500,100 C660,50 840,150 1000,100 L1000,160 L0,160 Z;
@@ -23,5 +21,5 @@
               M0,100 C160,60 340,150 500,100 C660,50 840,150 1000,100 L1000,160 L0,160 Z"/>
   </path>
 
-  <text x="500" y="140" text-anchor="middle" font-family="Fira Code, monospace" font-weight="700" font-size="18" fill="#e6edf3">Let's build something reliable together &</text>
+  <text x="500" y="140" text-anchor="middle" font-family="Fira Code, monospace" font-weight="700" font-size="18" fill="#e6edf3">Let's build something reliable together &#10022;</text>
 </svg>
