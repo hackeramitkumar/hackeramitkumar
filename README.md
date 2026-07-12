@@ -87,6 +87,13 @@ I'm a **systems-focused software engineer** who loves building **high-performanc
   IPC, secure policy enforcement, tamper resistance.
 -->
 
+<div align="center">
+
+<!-- Animated orbiting skill ring (self-hosted SVG) -->
+<img src="./assets/skill-orbit.svg" alt="Skill orbit" width="380" />
+
+</div>
+
 <img src="./assets/divider.svg" width="100%" alt="" />
 
 <!-- ===================== GITHUB STATS ===================== -->
@@ -156,6 +163,7 @@ I'm a **systems-focused software engineer** who loves building **high-performanc
 
 ### ⭐ Always excited about open source, infra, security, and well-designed systems.
 
-<i>Let's build something reliable together.</i>
-
 </div>
+
+<!-- Animated wave footer (self-hosted SVG) -->
+<img src="./assets/footer-wave.svg" width="100%" alt="" />
