@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" fill="none" role="img" aria-label="Amit Kumar - Systems Engineer">
+  <defs>
+    <!-- Animated background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117">
+        <animate attributeName="stop-color" values="#0d1117;#0a1a2f;#12082b;#0d1117" dur="12s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#161b22">
+        <animate attributeName="stop-color" values="#161b22;#0b2540;#1b0b3a;#161b22" dur="12s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Shimmering text gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#7c4dff"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <style>
+      .title  { font: 800 58px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 1px; }
+      .sub    { font: 600 22px 'Fira Code', Consolas, monospace; fill: #8b949e; }
+      .tag    { font: 500 15px 'Fira Code', Consolas, monospace; fill: #58a6ff; }
+      .pulse  { animation: pulse 3s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .55 } 50% { opacity: 1 } }
+      .rise   { animation: rise 1s ease-out both; }
+      @keyframes rise { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: translateY(0) } }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="320" rx="20" fill="url(#bg)"/>
+  <rect width="1000" height="320" rx="20" fill="url(#glow)" class="pulse"/>
+
+  <!-- Orbiting network nodes (distributed-systems motif) -->
+  <g stroke="#00e5ff" stroke-opacity="0.35" stroke-width="1.5">
+    <line x1="820" y1="90" x2="900" y2="150"><animate attributeName="stroke-opacity" values="0.1;0.6;0.1" dur="4s" repeatCount="indefinite"/></line>
+    <line x1="900" y1="150" x2="830" y2="230"><animate attributeName="stroke-opacity" values="0.6;0.1;0.6" dur="4s" repeatCount="indefinite"/></line>
+    <line x1="830" y1="230" x2="750" y2="160"><animate attributeName="stroke-opacity" values="0.1;0.6;0.1" dur="5s" repeatCount="indefinite"/></line>
+    <line x1="750" y1="160" x2="820" y2="90"><animate attributeName="stroke-opacity" values="0.6;0.1;0.6" dur="5s" repeatCount="indefinite"/></line>
+  </g>
+  <g fill="#7c4dff" filter="url(#soft)">
+    <circle cx="820" cy="90" r="6"><animate attributeName="r" values="5;8;5" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="150" r="6" fill="#00e5ff"><animate attributeName="r" values="8;5;8" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="830" cy="230" r="6"><animate attributeName="r" values="5;9;5" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="750" cy="160" r="6" fill="#00e5ff"><animate attributeName="r" values="9;5;9" dur="4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Floating particles -->
+  <g fill="#58a6ff">
+    <circle cx="120" cy="60" r="2.5" opacity="0.7"><animate attributeName="cy" values="60;40;60" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="220" cy="260" r="2" opacity="0.6"><animate attributeName="cy" values="260;280;260" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="60" cy="180" r="2" opacity="0.5"><animate attributeName="cy" values="180;150;180" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="285" r="2.2" opacity="0.6"><animate attributeName="cy" values="285;265;285" dur="6.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Text block -->
+  <g class="rise">
+    <text x="70" y="130" class="title" fill="url(#textGrad)" filter="url(#soft)">Amit Kumar</text>
+    <text x="72" y="172" class="sub">Systems Engineer · Cloud-Native · Security</text>
+    <text x="72" y="235" class="tag">$ building { Rust · Go · C/C++ · Kubernetes }</text>
+    <!-- animated underline -->
+    <rect x="72" y="188" width="0" height="3" rx="1.5" fill="url(#textGrad)">
+      <animate attributeName="width" from="0" to="430" dur="1.4s" begin="0.4s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <!-- blinking cursor -->
+  <rect x="560" y="221" width="10" height="18" fill="#00e5ff">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

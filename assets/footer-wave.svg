@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="160" viewBox="0 0 1000 160" fill="none" preserveAspectRatio="none" role="img" aria-label="footer wave">
+  <defs>
+    <linearGradient id="wg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#7c4dff"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- back wave -->
+  <path fill="url(#wg)" fill-opacity="0.25" d="M0,80 C150,20 350,140 500,80 C650,20 850,140 1000,80 L1000,160 L0,160 Z">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M0,80 C150,20 350,140 500,80 C650,20 850,140 1000,80 L1000,160 L0,160 Z;
+              M0,80 C150,140 350,20 500,80 C650,140 850,20 1000,80 L1000,160 L0,160 Z;
+              M0,80 C150,20 350,140 500,80 C650,20 850,140 1000,80 L1000,160 L0,160 Z"/>
+  </path>
+
+  <!-- front wave -->
+  <path fill="url(#wg)" fill-opacity="0.55" d="M0,100 C160,60 340,150 500,100 C660,50 840,150 1000,100 L1000,160 L0,160 Z">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="M0,100 C160,60 340,150 500,100 C660,50 840,150 1000,100 L1000,160 L0,160 Z;
+              M0,100 C160,150 340,60 500,100 C660,150 840,60 1000,100 L1000,160 L0,160 Z;
+              M0,100 C160,60 340,150 500,100 C660,50 840,150 1000,100 L1000,160 L0,160 Z"/>
+  </path>
+
+  <text x="500" y="140" text-anchor="middle" font-family="Fira Code, monospace" font-weight="700" font-size="18" fill="#e6edf3">Let's build something reliable together &</text>
+</svg>

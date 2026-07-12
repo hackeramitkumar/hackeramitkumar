@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" fill="none" role="img" aria-label="Terminal: whoami">
+  <defs>
+    <linearGradient id="term-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#131826"/>
+    </linearGradient>
+    <style>
+      .l  { font: 16px 'Fira Code', Consolas, monospace; opacity: 0; }
+      .p  { fill: #00e5ff; } .a { fill: #7c4dff; } .o { fill: #c9d1d9; } .g { fill: #3fb950; } .c { fill: #58a6ff; }
+      .fade { animation: fade .01s linear forwards; }
+      @keyframes fade { to { opacity: 1 } }
+      .t0 { animation-delay: .3s }  .t1 { animation-delay: 1.2s } .t2 { animation-delay: 1.9s }
+      .t3 { animation-delay: 2.9s } .t4 { animation-delay: 3.8s } .t5 { animation-delay: 4.6s }
+      .caret { animation: blink 1s step-end infinite; }
+      @keyframes blink { 50% { opacity: 0 } }
+    </style>
+  </defs>
+
+  <!-- window -->
+  <rect x="10" y="10" width="880" height="280" rx="12" fill="url(#term-bg)" stroke="#232a3b"/>
+  <rect x="10" y="10" width="880" height="34" rx="12" fill="#1b2130"/>
+  <circle cx="34" cy="27" r="6" fill="#ff5f56"/>
+  <circle cx="56" cy="27" r="6" fill="#ffbd2e"/>
+  <circle cx="78" cy="27" r="6" fill="#27c93f"/>
+  <text x="450" y="32" text-anchor="middle" font-family="Fira Code, monospace" font-size="13" fill="#6e7681">amit@github: ~/profile</text>
+
+  <!-- lines -->
+  <text x="34" y="80"  class="l fade t0"><tspan class="p">amit@github</tspan><tspan class="o">:</tspan><tspan class="a">~$</tspan><tspan class="o"> whoami</tspan></text>
+  <text x="34" y="106" class="l fade t1"><tspan class="g">œ</tspan><tspan class="o"> Systems Engineer · Cloud-Native · Security</tspan></text>
+  <text x="34" y="132" class="l fade t2"><tspan class="g">œ</tspan><tspan class="o"> Rust · Go · C/C++ · Kubernetes</tspan></text>
+
+  <text x="34" y="172" class="l fade t3"><tspan class="p">amit@github</tspan><tspan class="o">:</tspan><tspan class="a">~$</tspan><tspan class="o"> cat focus.txt</tspan></text>
+  <text x="34" y="198" class="l fade t4"><tspan class="c">œ</tspan><tspan class="o"> Internet of Agents · A2A protocol · Kyverno (CNCF)</tspan></text>
+
+  <g class="l fade t5">
+    <text x="34" y="238"><tspan class="p">amit@github</tspan><tspan class="o">:</tspan><tspan class="a">~$</tspan></text>
+    <rect x="150" y="225" width="9" height="16" fill="#00e5ff" class="caret"/>
+  </g>
+</svg>
