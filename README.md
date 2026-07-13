@@ -157,11 +157,11 @@ I'm a **systems-focused software engineer** who loves building **high-performanc
   OPTIONAL: contribution-snake animation.
   1. .github/workflows/snake.yml (Platane/snk) is already included.
   2. Run the workflow once from the Actions tab, then uncomment the image below.
+-->
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/hackeramitkumar/hackeramitkumar/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </div>
--->
 
 <div align="center">
 
